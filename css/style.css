@@ -26,6 +26,10 @@ body {
     color: #b1a7a6;
 }
 
+.primary-color {
+    color: #E0B280;
+}
+
 
 .welcome-quality {
     border: 2px solid #E0B280;
@@ -36,4 +40,46 @@ body {
 .welcome-quality i {
     font-size: 50px;
     color: #e85d04;
+}
+
+.header-text h1 {
+    color: #000;
+    margin-top: 0;
+}
+
+.header-text span {
+    color: #E0B280;
+}
+
+
+/* --------------swiper slider stylesheets------------ */
+
+.swiper-container {
+    position: relative;
+    width: 90vw;
+}
+
+.swiper-container>.swiper-slide__content {
+    position: absolute;
+    top: 0;
+}
+
+.swiper-slide {
+    height: 450px;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms linear;
+    transform: scale(0.8);
+}
+
+.swiper-slide.swiper-slide-active {
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.swiper-slide__content {
+    height: 450px;
 }
