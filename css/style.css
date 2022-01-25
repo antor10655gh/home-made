@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
 
+
+
+/* ---------------common style start------------------ */
 :root {
     --peru: #cd9452;
     --black: #222;
@@ -52,6 +55,10 @@ section {
     padding: 5rem 10%;
 }
 
+/* ---------------common style end------------------ */
+
+
+/* ---------------header style start------------------ */
 .heading {
     text-align: center;
     margin-bottom: 3rem;
@@ -131,6 +138,9 @@ section {
     }
 }
 
+/* ---------------header style end------------------ */
+
+/* ---------------home slider style start------------------ */
 .home {
     padding: 0;
     background: var(--black);
@@ -210,6 +220,11 @@ section {
     font-size: 2rem;
 }
 
+/* ---------------home slider style end------------------ */
+
+
+
+/* ---------------about style start------------------ */
 .about {
     display: flex;
     align-items: center;
@@ -266,6 +281,12 @@ section {
     font-weight: normal;
 }
 
+/* ---------------about style start------------------ */
+
+
+
+
+/* ---------------food slider style start------------------ */
 .food {
     background: var(--light-bg);
 }
@@ -313,6 +334,11 @@ section {
     color: var(--peru);
 }
 
+/* ---------------food slider style end------------------ */
+
+
+
+/* ---------------food preview style start------------------ */
 .food-preview-container {
     background: var(--dark-bg);
     position: fixed;
@@ -386,6 +412,11 @@ section {
     transform: rotate(90deg);
 }
 
+/* ---------------food preview style end------------------ */
+
+
+
+/* ---------------food gallery style start------------------ */
 .gallery .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -426,6 +457,11 @@ section {
     display: flex;
 }
 
+/* ---------------food gallery style end------------------ */
+
+
+
+/* ---------------menu style start------------------ */
 .menu {
     background: var(--light-bg);
 }
@@ -480,6 +516,11 @@ section {
     cursor: pointer;
 }
 
+/* ---------------menu style end------------------ */
+
+
+
+/* ---------------order style start------------------ */
 .order {
     background: var(--peru);
 }
@@ -551,6 +592,10 @@ section {
     font-size: 2rem;
 }
 
+/* ---------------order style end------------------ */
+
+
+/* ---------------blogs style start------------------ */
 .blogs {
     background: var(--light-bg);
 }
@@ -632,6 +677,11 @@ section {
     color: var(--light-black);
 }
 
+/* ---------------blogs style end------------------ */
+
+
+
+/* ---------------footer style start------------------ */
 .footer {
     text-align: center;
     /* padding-bottom: 10rem; */
@@ -702,10 +752,11 @@ section {
     color: var(--peru);
 }
 
+/* ---------------footer style end------------------ */
 
 
 
-/* media queries  */
+/* media queries for xl device  */
 
 @media (max-width:1200px) {
 
@@ -715,6 +766,8 @@ section {
 
 }
 
+
+/* media queries for large device  */
 @media (max-width:991px) {
 
     section {
@@ -731,6 +784,8 @@ section {
 
 }
 
+
+/* media queries for medium device  */
 @media (max-width:768px) {
 
     #menu-btn {
@@ -772,6 +827,9 @@ section {
     }
 }
 
+
+
+/* media queries for small device  */
 @media (max-width:450px) {
 
     html {

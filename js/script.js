@@ -1,3 +1,4 @@
+// ----------------------navbar-------------------------//
 let navbar = document.querySelector('.header .navbar');
 let menuBtn = document.querySelector('#menu-btn');
 
@@ -11,6 +12,8 @@ window.onscroll = () =>{
    navbar.classList.remove('active');
 };
 
+
+// ----------------------home-slider-------------------------//
 var swiper = new Swiper(".home-slider", {
    grabCursor:true,
    loop:true,
@@ -21,6 +24,8 @@ var swiper = new Swiper(".home-slider", {
    },
 });
 
+
+// ----------------------food-slider-------------------------//
 var swiper = new Swiper(".food-slider", {
    grabCursor:true,
    loop:true,
@@ -43,6 +48,7 @@ var swiper = new Swiper(".food-slider", {
    },
 });
 
+// ----------------------food-review-------------------------//
 let previewContainer = document.querySelector('.food-preview-container');
 let previewBox = previewContainer.querySelectorAll('.food-preview');
 
@@ -59,6 +65,7 @@ document.querySelectorAll('.food .slide').forEach(food =>{
    };
 });
 
+// ----------------------close-review-------------------------//
 previewContainer.querySelector('#close-preview').onclick = () =>{
    previewContainer.style.display = 'none';
    previewBox.forEach(close =>{
@@ -66,6 +73,8 @@ previewContainer.querySelector('#close-preview').onclick = () =>{
    });
 };
 
+
+// ----------------------menu-slider-------------------------//
 var swiper = new Swiper(".menu-slider", {
    grabCursor:true,
    loop:true,
@@ -78,6 +87,8 @@ var swiper = new Swiper(".menu-slider", {
    },
 });
 
+
+// ----------------------blog-slider-------------------------//
 var swiper = new Swiper(".blogs-slider", {
    grabCursor:true,
    loop:true,
